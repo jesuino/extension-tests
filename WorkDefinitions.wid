@@ -7,7 +7,7 @@
       "Subject" : new StringDataType(),
       "Body" : new StringDataType()
     ],
-    "displayName" : "Email EDITED ON GITHUB",
+    "displayName" : "Email",
     "icon" : "defaultemailicon.gif"
   ],
 
