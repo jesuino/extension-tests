@@ -1,6 +1,6 @@
 [
   [
-    "name" : "Email Email EDITED ON GITHUB",
+    "name" : "Email",
     "parameters" : [
       "From" : new StringDataType(),
       "To" : new StringDataType(),
