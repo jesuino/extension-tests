@@ -1,13 +1,13 @@
 [
   [
-    "name" : "Email",
+    "name" : "Email Email EDITED ON GITHUB",
     "parameters" : [
       "From" : new StringDataType(),
       "To" : new StringDataType(),
       "Subject" : new StringDataType(),
       "Body" : new StringDataType()
     ],
-    "displayName" : "Email",
+    "displayName" : "Email EDITED ON GITHUB",
     "icon" : "defaultemailicon.gif"
   ],
 
