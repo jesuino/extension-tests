@@ -1,13 +1,13 @@
 [
   [
-    "name" : "Email TEST 222",
+    "name" : "Email",
     "parameters" : [
       "From" : new StringDataType(),
       "To" : new StringDataType(),
       "Subject" : new StringDataType(),
       "Body" : new StringDataType()
     ],
-    "displayName" : "EMAIL LAH",
+    "displayName" : "Email",
     "icon" : "defaultemailicon.gif"
   ],
 
