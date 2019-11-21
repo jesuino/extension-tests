@@ -1,6 +1,6 @@
 [
   [
-    "name" : "Email Edited",
+    "name" : "Email TEST912819210921",
     "parameters" : [
       "From" : new StringDataType(),
       "To" : new StringDataType(),
