@@ -1,6 +1,6 @@
 [
   [
-    "name" : "Email CLEAN",
+    "name" : "Email Test after refactor 1",
     "parameters" : [
       "From" : new StringDataType(),
       "To" : new StringDataType(),
