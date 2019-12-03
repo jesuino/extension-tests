@@ -1,6 +1,6 @@
 [
   [
-    "name" : "Email Test after refactor 1",
+    "name" : "Email == refactor 2 ==",
     "parameters" : [
       "From" : new StringDataType(),
       "To" : new StringDataType(),
