@@ -1,13 +1,13 @@
 [
   [
-    "name" : "Email == refactor 2 ==",
+    "name" : "Email MODIFIED IN ANOTHER BRANCH - BABY",
     "parameters" : [
       "From" : new StringDataType(),
       "To" : new StringDataType(),
       "Subject" : new StringDataType(),
       "Body" : new StringDataType()
     ],
-    "displayName" : "Email Edited",
+    "displayName" : "Email Edited - OTHER BRANCH, BABYYYY",
     "icon" : "defaultemailicon.gif"
   ],
 
