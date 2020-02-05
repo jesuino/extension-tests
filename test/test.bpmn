@@ -1,1 +1,52 @@
-
+<bpmn2:definitions xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:bpsim="http://www.bpsim.org/schemas/1.0" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:drools="http://www.jboss.org/drools" id="_bgc_cCqREDiCyM9W2lb3wg" exporter="jBPM Process Modeler" exporterVersion="2.0" targetNamespace="http://www.omg.org/bpmn20">
+  <bpmn2:process id="_C0359FDD-33DC-45BC-B04C-EC6B632993A4" drools:version="1.0" drools:adHoc="false" name="_C0359FDD-33DC-45BC-B04C-EC6B632993A4" isExecutable="true" processType="Public">
+    <bpmn2:sequenceFlow id="_44AC1416-1BD1-4963-BEE4-10699B14385F" sourceRef="_A57F4BE3-5B22-480E-9126-CA3BD6E05C21" targetRef="_BA911BB0-5D98-4ECF-9C43-FC4F3EFC45EB">
+      <bpmn2:extensionElements>
+        <drools:metaData name="isAutoConnection.source">
+          <drools:metaValue>true</drools:metaValue>
+        </drools:metaData>
+        <drools:metaData name="isAutoConnection.target">
+          <drools:metaValue>true</drools:metaValue>
+        </drools:metaData>
+      </bpmn2:extensionElements>
+    </bpmn2:sequenceFlow>
+    <bpmn2:endEvent id="_BA911BB0-5D98-4ECF-9C43-FC4F3EFC45EB">
+      <bpmn2:incoming>_44AC1416-1BD1-4963-BEE4-10699B14385F</bpmn2:incoming>
+    </bpmn2:endEvent>
+    <bpmn2:startEvent id="_A57F4BE3-5B22-480E-9126-CA3BD6E05C21">
+      <bpmn2:outgoing>_44AC1416-1BD1-4963-BEE4-10699B14385F</bpmn2:outgoing>
+    </bpmn2:startEvent>
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram>
+    <bpmndi:BPMNPlane bpmnElement="_C0359FDD-33DC-45BC-B04C-EC6B632993A4">
+      <bpmndi:BPMNShape id="shape__A57F4BE3-5B22-480E-9126-CA3BD6E05C21" bpmnElement="_A57F4BE3-5B22-480E-9126-CA3BD6E05C21">
+        <dc:Bounds height="56" width="56" x="342" y="83"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="shape__BA911BB0-5D98-4ECF-9C43-FC4F3EFC45EB" bpmnElement="_BA911BB0-5D98-4ECF-9C43-FC4F3EFC45EB">
+        <dc:Bounds height="56" width="56" x="478" y="83"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="edge_shape__A57F4BE3-5B22-480E-9126-CA3BD6E05C21_to_shape__BA911BB0-5D98-4ECF-9C43-FC4F3EFC45EB" bpmnElement="_44AC1416-1BD1-4963-BEE4-10699B14385F">
+        <di:waypoint x="398" y="111"/>
+        <di:waypoint x="478" y="111"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+  <bpmn2:relationship id="_bgusQCqREDiCyM9W2lb3wg" type="BPSimData">
+    <bpmn2:extensionElements>
+      <bpsim:BPSimData>
+        <bpsim:Scenario id="default" name="Simulationscenario">
+          <bpsim:ScenarioParameters/>
+          <bpsim:ElementParameters elementRef="_A57F4BE3-5B22-480E-9126-CA3BD6E05C21">
+            <bpsim:TimeParameters>
+              <bpsim:ProcessingTime>
+                <bpsim:NormalDistribution mean="0" standardDeviation="0"/>
+              </bpsim:ProcessingTime>
+            </bpsim:TimeParameters>
+          </bpsim:ElementParameters>
+        </bpsim:Scenario>
+      </bpsim:BPSimData>
+    </bpmn2:extensionElements>
+    <bpmn2:source>_bgc_cCqREDiCyM9W2lb3wg</bpmn2:source>
+    <bpmn2:target>_bgc_cCqREDiCyM9W2lb3wg</bpmn2:target>
+  </bpmn2:relationship>
+</bpmn2:definitions>
