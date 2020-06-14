@@ -1,0 +1,18 @@
+[
+  [
+    "name" : "TEST",
+    "parameters" : [
+    "Message" : new StringDataType()
+    ],
+    "displayName" : "TEST",
+    "icon" : growth.png
+  ],
+  [
+    "name" : "TEST2",
+    "parameters" : [
+    "Message" : new StringDataType()
+    ],
+    "displayName" : "TEST2",
+    "icon" : this_icon_does_not_exist.png
+  ]
+]

@@ -1,14 +1,14 @@
 [
   [
-    "name" : "Email == refactor 2 ==",
+    "name" : "Email",
     "parameters" : [
       "From" : new StringDataType(),
       "To" : new StringDataType(),
       "Subject" : new StringDataType(),
       "Body" : new StringDataType()
     ],
-    "displayName" : "Email Edited",
-    "icon" : "defaultemailicon.gif"
+    "displayName" : "Email",
+    "icon" : "/test/new_folder/defaultemailicon.gif"
   ],
 
   [
@@ -17,7 +17,7 @@
       "Message" : new StringDataType()
     ],
     "displayName" : "Log",
-    "icon" : "defaultlogicon.gif"
+    "icon" : "/test/new_folder/growth.png"
   ],
 
   [
